@@ -1,3 +1,68 @@
-h2 {
-  font-weight: bold; }
+/* variables */
+/* mixins */
+/* more normalize */
+p, h1, ul, .body, .html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+.html, .body {
+  overflow: hidden; }
+
+/* page styles */
+.html {
+  background: url("bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif; }
+
+.body {
+  text-align: center;
+  white-space: nowrap; }
+
+.body:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; }
+
+.centered {
+  display: inline-block;
+  vertical-align: middle; }
+
+.list-item {
+  list-style: none;
+  display: inline; }
+
+.content {
+  width: 330px;
+  background-color: #FEFEFE;
+  border: 2px solid #000; }
+
+.identity {
+  margin: 15px 0; }
+
+.bio {
+  white-space: normal;
+  margin-bottom: 15px; }
+
+.icon-link,
+.icon-link:hover,
+.icon-link:visited {
+  color: inherit;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 1px; }
+
+.footnote {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  height: 19px;
+  color: #FFF; }
 
