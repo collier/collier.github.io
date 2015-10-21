@@ -1,4 +1,6 @@
-/* variables */
+/* fonts */
+/* size and spacing */
+/* color */
 /* mixins */
 /* more normalize */
 p, h1, ul, .body, .html {
@@ -13,11 +15,11 @@ p, h1, ul, .body, .html {
 /* page styles */
 .html {
   background: url("bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: "Open Sans", sans-serif; }
+  -webkit-background-size: inherit;
+  -moz-background-size: inherit;
+  -o-background-size: inherit;
+  background-size: inherit;
+  font-family: "Merriweather", serif; }
 
 .body {
   text-align: center;
@@ -34,17 +36,28 @@ p, h1, ul, .body, .html {
   display: inline-block;
   vertical-align: middle; }
 
+.inline {
+  display: inline; }
+
 .list-item {
   list-style: none;
   display: inline; }
 
 .content {
-  width: 330px;
-  background-color: #FEFEFE;
-  border: 2px solid #000; }
+  width: 400px;
+  color: rgba(255, 255, 255, 0.8); }
+
+.contact {
+  font-size: 19px; }
 
 .identity {
   margin: 15px 0; }
+
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  color: #FFF;
+  letter-spacing: -3px; }
 
 .bio {
   white-space: normal;
