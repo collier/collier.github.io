@@ -45,6 +45,7 @@ p, h1, ul, .body, .html {
 /* page styles */
 .html {
   @include set-background-img('bg.jpeg');
+  // @include set-background-img('bg.jpeg');
   font-family: $content-font;
 }
 
