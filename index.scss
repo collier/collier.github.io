@@ -24,10 +24,10 @@ $footnote-color: #FFF;
 
 @mixin set-background-img($img) {
   background: url($img) no-repeat center center fixed;
-  -webkit-background-size: inherit;
-  -moz-background-size: inherit;
-  -o-background-size: inherit;
-  background-size: inherit;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* more normalize */
@@ -44,7 +44,7 @@ p, h1, ul, .body, .html {
 
 /* page styles */
 .html {
-  @include set-background-img('bg.jpg');
+  @include set-background-img('bg.jpeg');
   font-family: $content-font;
 }
 

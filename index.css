@@ -14,11 +14,11 @@ p, h1, ul, .body, .html {
 
 /* page styles */
 .html {
-  background: url("bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: inherit;
-  -moz-background-size: inherit;
-  -o-background-size: inherit;
-  background-size: inherit;
+  background: url("bg.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: "Merriweather", serif; }
 
 .body {
