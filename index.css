@@ -14,12 +14,6 @@ p, h1, ul, .body, .html {
 
 /* page styles */
 .html {
-  background-color: #263B51;
-  background: url("bg.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   font-family: "Merriweather", serif; }
 
 .body {
@@ -79,4 +73,3 @@ p, h1, ul, .body, .html {
   font-size: 10px;
   height: 19px;
   color: #FFF; }
-
