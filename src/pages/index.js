@@ -1,2 +1,9 @@
 import React from 'react';
-export default () => <h1>Hello Gatsby!</h1>;
+
+import Layout from '../components/Layout';
+
+export default () => (
+  <Layout>
+    <h1>Hello Gatsby!</h1>
+  </Layout>
+);
