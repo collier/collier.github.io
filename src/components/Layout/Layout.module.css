@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) [main-start] minmax(0, 56em) [main-end] minmax(
+      1em,
+      1fr
+    );
+}
+
+.navbar {
+  grid-column: main;
+}
+
+.content {
+  grid-column: main;
+}
