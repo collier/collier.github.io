@@ -1,0 +1,28 @@
+:root {
+  --color-bg: #ddd;
+  --color-text: #000;
+  --color-link-text: initial;
+}
+
+/* https://github.com/ayu-theme/vscode-ayu/blob/master/ayu-mirage-bordered.json */
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #232834;
+    --color-text: #e7e7e7;
+    --color-link-text: #73d0ff;
+  }
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-link-text);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

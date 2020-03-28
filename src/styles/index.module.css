@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  margin-top: 4rem;
+  grid-column-gap: 1rem;
+  grid-template-columns:
+    minmax(1em, 1fr) [col1-start] minmax(0, 38rem) [col1-end col2-start] minmax(
+      0,
+      26rem
+    )
+    [col2-end] minmax(1em, 1fr);
+}
+
+.col1 {
+  grid-column: col1;
+}
+
+.col2 {
+  grid-column: col2;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.intro {
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+.blurb {
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.navList {
+  margin-top: 0;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+.navLink {
+  display: inline-block;
+  margin-right: 0.3rem;
+}
