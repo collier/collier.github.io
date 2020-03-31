@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { GoMarkGithub } from 'react-icons/go';
 import useSiteMetadata from '../hooks/useSiteMetadata';
 
 import styles from '../styles/index.module.css';
@@ -22,12 +23,16 @@ function IndexPage() {
           lacus vel, viverra interdum nisl. Sed pellentesque ut diam eget
           feugiat.
         </h3>
-        <a href={githubUrl}></a>
+        <div>
+          <a href={githubUrl} className={styles.githubLink}>
+            Visit GitHub Profile <GoMarkGithub className={styles.githubIcon} />
+          </a>
+        </div>
       </div>
       <div className={styles.col2}>
         <ul className={styles.navList}>
           <li className={styles.navLink}>Projects ·</li>
-          <li className={styles.navLink}>Experiments ·</li>
+          <li className={styles.navLink}>Playground ·</li>
           <li className={styles.navLink}>
             <Link to="/about">About</Link> ·
           </li>

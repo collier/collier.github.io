@@ -20,12 +20,13 @@
 
 .title {
   font-size: 3rem;
-  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 .intro {
   font-weight: normal;
   font-size: 2.4rem;
+  margin-bottom: 1.7rem;
 }
 
 .blurb {
@@ -42,4 +43,15 @@
 .navLink {
   display: inline-block;
   margin-right: 0.3rem;
+}
+
+.githubLink {
+  padding: 1rem 1rem;
+  border: 1px solid;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.githubIcon {
+  margin-left: 0.2rem;
 }
