@@ -3,19 +3,25 @@ import { Link } from 'gatsby';
 import { GoMarkGithub } from 'react-icons/go';
 import useSiteMetadata from '../hooks/useSiteMetadata';
 
-import styles from '../styles/index.module.css';
+import '../styles/index.module.css';
+
+const GhostLink = ({ href, children }) => (
+  <a href={href} styleName="ghost-link">
+    {children}
+  </a>
+);
 
 function IndexPage() {
   const { githubUrl } = useSiteMetadata();
   return (
-    <div className={styles.container}>
-      <div className={styles.col1}>
-        <h1 className={styles.title}>Hello, I'm D.J. Collier.</h1>
-        <h2 className={styles.intro}>
+    <div styleName="container">
+      <div styleName="col1">
+        <h1 styleName="title">Hello, I'm D.J. Collier.</h1>
+        <h2 styleName="intro">
           I'm a front-end <i>leaning</i> full stack web developer who loves
           building approachable yet powerful applications for users.
         </h2>
-        <h3 className={styles.blurb}>
+        <h3 styleName="blurb">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dolor
           est, vehicula et aliquam sit amet, dignissim luctus lacus. Proin
           mattis, urna at molestie maximus, nunc risus molestie diam, eu
@@ -23,20 +29,18 @@ function IndexPage() {
           lacus vel, viverra interdum nisl. Sed pellentesque ut diam eget
           feugiat.
         </h3>
-        <div>
-          <a href={githubUrl} className={styles.githubLink}>
-            Visit GitHub Profile <GoMarkGithub className={styles.githubIcon} />
-          </a>
-        </div>
+        <GhostLink href={githubUrl}>
+          Visit GitHub Profile <GoMarkGithub styleName="github-icon" />
+        </GhostLink>
       </div>
-      <div className={styles.col2}>
-        <ul className={styles.navList}>
-          <li className={styles.navLink}>Projects ·</li>
-          <li className={styles.navLink}>Playground ·</li>
-          <li className={styles.navLink}>
+      <div styleName="col2">
+        <ul styleName="nav-list">
+          <li styleName="nav-link">Projects ·</li>
+          <li styleName="nav-link">Playground ·</li>
+          <li styleName="nav-link">
             <Link to="/about">About</Link> ·
           </li>
-          <li className={styles.navLink}>Contact</li>
+          <li styleName="nav-link">Contact</li>
         </ul>
       </div>
     </div>

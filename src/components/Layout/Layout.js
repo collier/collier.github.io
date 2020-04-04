@@ -1,16 +1,20 @@
 import React from 'react';
 
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
-import styles from './Layout.module.css';
+import './Layout.module.css';
 
 function Layout({ children }) {
   return (
-    <div className={styles.container}>
-      <div className={styles.navbar}>
+    <div styleName="container">
+      <div styleName="navbar">
         <Navbar />
       </div>
-      <div className={styles.content}>{children}</div>
+      <div styleName="content">{children}</div>
+      <div styleName="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

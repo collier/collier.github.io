@@ -3,9 +3,9 @@
   margin-top: 4rem;
   grid-column-gap: 1rem;
   grid-template-columns:
-    minmax(1em, 1fr) [col1-start] minmax(0, 38rem) [col1-end col2-start] minmax(
+    minmax(1em, 1fr) [col1-start] minmax(0, 36rem) [col1-end col2-start] minmax(
       0,
-      26rem
+      24rem
     )
     [col2-end] minmax(1em, 1fr);
 }
@@ -32,26 +32,33 @@
 .blurb {
   font-weight: normal;
   font-size: 1.3rem;
+  margin-bottom: 1.7rem;
 }
 
-.navList {
+.nav-list {
   margin-top: 0;
   padding: 0;
   font-size: 1.3rem;
 }
 
-.navLink {
+.nav-link {
   display: inline-block;
   margin-right: 0.3rem;
 }
 
-.githubLink {
-  padding: 1rem 1rem;
-  border: 1px solid;
-  border-radius: 0.2rem;
-  font-size: 1.2rem;
+.github-icon {
+  margin-left: 0.2rem;
 }
 
-.githubIcon {
-  margin-left: 0.2rem;
+.ghost-link {
+  padding: 1rem 1rem;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.ghost-link:hover {
+  border-color: var(--color-link-hover);
 }

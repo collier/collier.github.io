@@ -1,24 +1,26 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import styles from './Navbar.module.css';
+import './Navbar.module.css';
 
 function Navbar() {
   return (
-    <nav className={styles.navbar}>
-      <h1>
-        <Link to="/">DJ Collier</Link>
-      </h1>
-      <ul className={styles.linksList}>
-        <li className={styles.link}>
+    <nav styleName="navbar">
+      <Link to="/" styleName="brand">
+        DJ Collier
+      </Link>
+      <ul styleName="links-list">
+        <li styleName="link">
           <Link to="/">Home</Link>
         </li>
-        <li className={styles.link}>Projects</li>
-        <li className={styles.link}>Playground</li>
-        <li className={styles.link}>
+        <li styleName="link">Projects</li>
+        <li styleName="link">Playground</li>
+        <li styleName="link">
           <Link to="/about">About</Link>
         </li>
-        <li className={styles.link}>Contact</li>
+        <li styleName="link">
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );
