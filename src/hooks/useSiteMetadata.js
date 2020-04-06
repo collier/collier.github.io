@@ -7,6 +7,10 @@ const useSiteMetadata = () => {
         site {
           siteMetadata {
             githubUrl
+            twitterUrl
+            codepenUrl
+            linkedinUrl
+            emailAddress
           }
         }
       }

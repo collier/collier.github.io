@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    githubUrl: 'https://github.com/collier'
+    githubUrl: 'https://github.com/collier',
+    twitterUrl: 'https://twitter.com/deej_collier',
+    codepenUrl: 'https://codepen.io/djcollier',
+    linkedinUrl: 'https://www.linkedin.com/in/dj-collier/',
+    emailAddress: 'dj@djcollier.com'
   },
   plugins: [
     {
