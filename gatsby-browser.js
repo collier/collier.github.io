@@ -1,2 +1,2 @@
-import 'typeface-fira-sans';
+import 'typeface-inter';
 import './src/styles/global.css';
