@@ -28,6 +28,22 @@ export default () => (
       </section>
       <section>
         <h2>Places I've Worked</h2>
+        <h3>Foodio</h3>
+        <p>Co-Founder and CTO • Aug 2012 – Aug 2014</p>
+        <ul>
+          <li>
+            Designing javascript based ordering software, used as a template to
+            launch 9 restaurant mobile applications in both the Apple App Store
+            and Google Play.
+          </li>
+          <li>
+            Developing an administrator dashboard letting restaurants update
+            menus, hours, and delivery areas online. Gave access to incoming
+            orders to confirm, cancel, or mark as fraud. Provided data analytics
+            showing repeat customers, order volume, peak hours, and map of
+            deliveries.
+          </li>
+        </ul>
       </section>
     </main>
   </Layout>
