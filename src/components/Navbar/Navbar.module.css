@@ -20,3 +20,7 @@
 .link:not(:first-child) {
   margin-left: 1.5rem;
 }
+
+.link:not(:last-child) {
+  margin-bottom: initial;
+}

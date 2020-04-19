@@ -11,36 +11,10 @@
     --color-bg: #232834;
     --color-footer-bg: #1f2430;
     --color-text: #e7e7e7;
+    --color-gray-text: #afafbf;
     --color-link-text: #73d0ff;
     --color-link-hover: #fcf5c7;
   }
-}
-
-html,
-body,
-p,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-blockquote,
-figure,
-fieldset,
-legend,
-textarea,
-pre,
-iframe,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -69,26 +43,19 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 h1 {
   font-size: 3.5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-weight: 500;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 section {
@@ -97,4 +64,41 @@ section {
 
 main {
   margin-bottom: 4rem;
+}
+
+li:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+
+p,
+li,
+b,
+i {
+  font-size: 1.15rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  color: var(--color-gray-text);
+}
+
+.dash-list {
+  list-style: none;
+}
+
+.dash-item {
+  display: flex;
+}
+
+.dash-item:before {
+  content: '–';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.m-n {
+  margin: 0;
 }
