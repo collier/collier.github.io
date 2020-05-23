@@ -16,11 +16,13 @@
 
 .col2 {
   grid-column: col2;
+  padding-left: 1.5rem;
 }
 
 .title {
   font-size: 3rem;
   margin-bottom: 2rem;
+  line-height: 0.9;
 }
 
 .intro {
@@ -35,15 +37,26 @@
   margin-bottom: 1.7rem;
 }
 
+.profile-pic {
+  width: 18.125rem;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
 .nav-list {
   margin-top: 0;
   padding: 0;
-  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .nav-link {
   display: inline-block;
   margin-right: 0.3rem;
+  font-size: 1.4rem;
+}
+
+.socials {
+  font-size: 1.5rem;
 }
 
 .github-icon {

@@ -9,14 +9,10 @@
   justify-content: center;
 }
 
-.message {
-  margin-bottom: 1rem;
-}
-
 .socials {
   font-size: 1.8rem;
 }
 
-.social-link:not(:last-child) {
-  margin-right: 0.7rem;
+.message {
+  margin-bottom: 1rem;
 }

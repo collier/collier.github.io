@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { GoMarkGithub } from 'react-icons/go';
 import useSiteMetadata from '../hooks/useSiteMetadata';
+import SocialLinks from '../components/SocialLinks';
 
+import ProfileImg from '../assets/profile-sm.jpg';
 import '../styles/index.module.css';
 
 const GhostLink = ({ href, children }) => (
@@ -34,14 +36,21 @@ function IndexPage() {
         </GhostLink>
       </div>
       <div styleName="col2">
+        <img src={ProfileImg} alt="D.J. Collier" styleName="profile-pic" />
         <ul styleName="nav-list">
-          <li styleName="nav-link">Projects ·</li>
-          <li styleName="nav-link">Playground ·</li>
+          <li styleName="nav-link">
+            <Link to="/projects">Projects</Link> ·
+          </li>
           <li styleName="nav-link">
             <Link to="/about">About</Link> ·
           </li>
-          <li styleName="nav-link">Contact</li>
+          <li styleName="nav-link">
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
+        <div styleName="socials">
+          <SocialLinks styleName="socials" />
+        </div>
       </div>
     </div>
   );

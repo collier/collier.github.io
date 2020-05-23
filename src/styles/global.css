@@ -72,8 +72,7 @@ li:not(:last-child) {
 
 p,
 li,
-b,
-i {
+b {
   font-size: 1.15rem;
 }
 
