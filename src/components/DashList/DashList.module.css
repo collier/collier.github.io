@@ -1,0 +1,13 @@
+.dash-list {
+  list-style: none;
+}
+
+.dash-item {
+  display: flex;
+}
+
+.dash-item:before {
+  content: '–';
+  display: inline-block;
+  margin-right: 0.5rem;
+}

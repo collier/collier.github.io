@@ -20,7 +20,7 @@
   "homepage": "https://github.com/collier/collier.github.io#readme",
   "dependencies": {
     "classnames": "^2.2.6",
-    "gatsby": "^2.20.8",
+    "gatsby": "^2.22.9",
     "gatsby-plugin-react-css-modules": "^2.2.1",
     "prettier": "1.19.1",
     "prop-types": "^15.7.2",

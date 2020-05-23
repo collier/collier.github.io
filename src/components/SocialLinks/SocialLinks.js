@@ -11,7 +11,7 @@ import useSiteMetadata from '../../hooks/useSiteMetadata';
 
 import './SocialLinks.module.css';
 
-function SocialLinks() {
+export default function SocialLinks() {
   const {
     githubUrl,
     twitterUrl,
@@ -43,13 +43,11 @@ function SocialLinks() {
   ];
   return (
     <>
-      {socialLinks.map(({ href, icon }) => (
-        <a href={href} styleName="social-link">
+      {socialLinks.map(({ href, icon }, i) => (
+        <a href={href} styleName="social-link" key={i}>
           {icon}
         </a>
       ))}
     </>
   );
 }
-
-export default SocialLinks;

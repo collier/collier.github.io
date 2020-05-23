@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import ProjectList from '../components/ProjectList';
 
 export default () => (
   <Layout>
@@ -22,6 +23,9 @@ export default () => (
           imperdiet faucibus, ligula orci tincidunt turpis, ac mollis ligula
           felis rhoncus leo.
         </p>
+      </section>
+      <section>
+        <ProjectList />
       </section>
     </main>
   </Layout>

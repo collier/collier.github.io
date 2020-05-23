@@ -37,7 +37,7 @@ function IndexPage() {
       </div>
       <div styleName="col2">
         <img src={ProfileImg} alt="D.J. Collier" styleName="profile-pic" />
-        <ul styleName="nav-list">
+        <ul className="inline-list" styleName="nav-list">
           <li styleName="nav-link">
             <Link to="/projects">Projects</Link> ·
           </li>

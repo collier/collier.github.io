@@ -1,0 +1,39 @@
+.project-item {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-details {
+  width: 40%;
+  padding-right: 1rem;
+}
+
+.project-name {
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  margin-bottom: 1rem;
+}
+
+.project-tool-item {
+  margin-right: 0.9rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-pic {
+  max-width: 560px;
+}
+
+@media (max-width: 1008px) {
+  .project-details {
+    width: 100%;
+    padding-right: 0rem;
+  }
+
+  .project-pic {
+    max-width: 100%;
+  }
+}
