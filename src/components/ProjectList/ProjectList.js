@@ -1,8 +1,9 @@
 import React from 'react';
 
 import StatBoardImg from '../../assets/stat-board.png';
-import SOAPAnalyzerImg from '../../assets/soap-analyzer.png';
-import NFLDraftPWAImg from '../../assets/nfl-draft-pwa-2.png';
+import SOAPAnalyzerImg from '../../assets/soap-analyzer-2.png';
+import NFLDraftPWAImg from '../../assets/nfl-draft-pwa-4.png';
+import PersonalSiteImg from '../../assets/personal-site-2.png';
 
 import './ProjectList.module.css';
 
@@ -10,8 +11,14 @@ const projects = [
   {
     name: 'SOAP Analyzer',
     description:
-      'A developer tools chrome extension which allows users to easily track any SOAP HTTP requests that are made by the browser. Its meant to act as the Network tab, but only for SOAP HTTP traffic, currently has ~3,500 actively weekly users.',
-    tools: ['React.js', 'Chrome Extension', 'Webpack'],
+      'A developer tools Chrome extension which allows users to easily track any SOAP HTTP requests that are made by the browser. Its meant to act as the Network tab, but only for SOAP HTTP traffic, currently has ~3,500 actively weekly users.',
+    tools: [
+      'React.js',
+      'Chrome Extension',
+      'Webpack',
+      'Bootstrap',
+      'Ace Code Editor'
+    ],
     imgSource: SOAPAnalyzerImg
   },
   {
@@ -21,8 +28,9 @@ const projects = [
     tools: [
       'React.js',
       'Go',
-      'Webpack',
+      'Create React App',
       'Ant Design',
+      'CSS Modules',
       'Advent Of Code API',
       'Dark Sky API',
       'ESPN API',
@@ -34,8 +42,21 @@ const projects = [
     name: 'NFL Draft PWA',
     description:
       'A progressive web app reference for picks made during NFL Drafts. Allows users to filter draft picks by year and also by team.',
-    tools: ['React.js', 'Framework7', 'Webpack', 'Ant Design'],
+    tools: [
+      'React.js',
+      'Framework7',
+      'Create React App',
+      'Node.js',
+      'CSS Modules'
+    ],
     imgSource: NFLDraftPWAImg
+  },
+  {
+    name: 'My Personal Site',
+    description:
+      'A progressive web app reference for picks made during NFL Drafts. Allows users to filter draft picks by year and also by team.',
+    tools: ['React.js', 'Gatsby.js', 'CSS Modules'],
+    imgSource: PersonalSiteImg
   }
 ];
 

@@ -5,7 +5,7 @@
 }
 
 .project-details {
-  width: 40%;
+  width: 60%;
   padding-right: 1rem;
 }
 
@@ -24,7 +24,9 @@
 }
 
 .project-pic {
-  max-width: 560px;
+  max-width: 366px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 @media (max-width: 1008px) {

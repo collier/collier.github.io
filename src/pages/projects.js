@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import ProjectList from '../components/ProjectList';
+import OtherStuffList from '../components/OtherStuffList';
 
 export default () => (
   <Layout>
@@ -26,6 +27,10 @@ export default () => (
       </section>
       <section>
         <ProjectList />
+      </section>
+      <section>
+        <h2>Other Stuff I've Built</h2>
+        <OtherStuffList />
       </section>
     </main>
   </Layout>

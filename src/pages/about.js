@@ -30,11 +30,14 @@ export default () => (
       <section>
         <h2>Skills And Experience</h2>
         <p>JavaScript (ES6+), TypeScript, Node.js, Java, Go, HTML/CSS</p>
-        <p>Microsoft SQL Server, MySQL, ElasticSearch, Logstash</p>
-        <p>React, Marionette/Backbone, Gatsby.js, Bootstrap</p>
         <p>
-          Webpack, Git, SVN, Balsamiq, Chrome Extensions, OpenText AppWorks &
-          Content Server
+          React.js, Marionette/Backbone.js, Gatsby.js, Bootstrap, Handlebars,
+          CSS Modules, jQuery
+        </p>
+        <p>Microsoft SQL Server, MySQL, ElasticSearch, Logstash</p>
+        <p>
+          Webpack, Git, SVN, Balsamiq, Chrome Extensions, Postman, OpenText
+          AppWorks & Content Server
         </p>
         <p>
           <strong>It's Been A While</strong>: PHP, R, C#
